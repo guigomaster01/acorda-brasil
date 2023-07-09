@@ -91,13 +91,13 @@ body {
 
 
 /* Media qurey section */
-@media screen and (min-width: 720px) and (max-width: 1024px) {
+@media screen and (min-width: 900px) and (max-width: 1024px) {
     .container {
         margin: 0;
     }
 }
 
-@media screen and (max-width:720px) {
+@media screen and (max-width:900px) {
     .navTrigger {
         display: block;
     }
@@ -332,11 +332,6 @@ body {
     padding: 0;
     background-color: #111;
 }
-
-
-
-
-
 
 .myH2 {
 	text-align:center;
