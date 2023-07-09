@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR" >
+<head>
+  <meta charset="UTF-8">
+  <title>Acorda Brasil</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<nav class="nav">
+        <div class="container">
+            <div class="logo">
+                <a href="https://www.facebook.com/acordabrasil">Acorda Brasil</a>
+            </div>
+            <div id="mainListDiv" class="main_list">
+                <ul class="navlinks">
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="/noticias/">Noticias</a></li>
+                    <li><a href="https://www.facebook.com/acordabrasil">Redes Sociais</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </div>
+            <span class="navTrigger">
+                <i></i>
+                <i></i>
+                <i></i>
+            </span>
+        </div>
+    </nav>
+
+    <section class="home">
+    </section>
+    <div style="height: 1000px">
+
+			<h2 class="myH2">O que é ACORDA BRASIL?</h2>
+
+			<p class="myP">Acorda Brasil (<a href="https://www.facebook.com/acordabrasil">no Facebook </a>)
+			</p>
+
+				<p class="myP">
+				
+                    "Acorda Brasil" é uma página cheia de atitude que vai te fazer repensar a forma como vemos a política. <br />
+                    Aqui, queremos despertar o interesse dos jovens e mostrar que eles têm voz e poder de cobrar o governo por mudanças reais.<br />
+                    Com conteúdo dinâmico e descolado, trazemos informações sobre os desafios que nosso país enfrenta e como podemos fazer a diferença.<br />
+                    Chega de ficar de fora, é hora de se envolver, se informar e lutar por um futuro melhor.<br /><br />
+                    Junte-se a nós e vamos fazer barulho juntos!</p>
+    </div>
+
+<!-- Jquery needed -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/scripts.js"></script>
+
+<!-- Function used to shrink nav bar removing paddings and adding black background -->
+    <script>
+        $(window).scroll(function() {
+            if ($(document).scrollTop() > 50) {
+                $('.nav').addClass('affix');
+                console.log("OK");
+            } else {
+                $('.nav').removeClass('affix');
+            }
+        });
+    </script>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
